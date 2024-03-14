@@ -5,9 +5,9 @@ let Games = new Array ("valorant", "fortnite", "gta")
 
 
 //adiciona um elemnento ao Array
-ListaNumeros.unshift(0)
+ListaNumeros.shift()
 //adiciona um elemento ao Array
-Games.unshift("Fifa")
+Games.shift()
 //Demostra a variavel da sinaxe
 console.log(ListaNumeros)
 //Demostra a variavel do Array
